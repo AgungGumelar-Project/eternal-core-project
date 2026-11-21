@@ -44,3 +44,16 @@ Membangun website portofolio resmi untuk **CV. Eternal Core Project** (Event Org
 - **Halaman Utama**: `D:\AI AGENT BUNGA\01_Projects\eternal-core-project\index.html`
 - **Konfigurasi Vercel**: `D:\AI AGENT BUNGA\01_Projects\eternal-core-project\vercel.json`
 - **Panduan Deploy**: `D:\AI AGENT BUNGA\01_Projects\eternal-core-project\README.md`
+
+---
+
+## 🌐 Status Deployment Vercel (Angelica)
+- **Live Production URL**: [https://eternal-core-project.vercel.app](https://eternal-core-project.vercel.app)
+- **Inspect URL**: [https://vercel.com/agung-gumelar/eternal-core-project/AuqEhjXa7EKsv6EVnpZA5YDioA5b](https://vercel.com/agung-gumelar/eternal-core-project/AuqEhjXa7EKsv6EVnpZA5YDioA5b)
+- **Deployment ID**: `dpl_AuqEhjXa7EKsv6EVnpZA5YDioA5b`
+- **Target**: Production
+- **Ready State**: `READY`
+- **Mechanical Proof (Exit Code 0)**:
+  - HTTP Status: `200 OK`
+  - Response Body Length: `64,567 bytes` (Payload Landing Page Utuh)
+  - Git Repo: Inisialisasi commit `master (root-commit) b4530a6`
