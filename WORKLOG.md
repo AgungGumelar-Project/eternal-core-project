@@ -49,14 +49,16 @@ Membangun website portofolio resmi untuk **CV. Eternal Core Project** (Event Org
 
 ## 🌐 Status Deployment Vercel (Angelica)
 - **Live Production URL**: [https://eternal-core-project.vercel.app](https://eternal-core-project.vercel.app)
-- **Latest Deployment ID**: `dpl_2nVXSLCtwSHESCiox6uZASKfQG6B`
-- **Inspect URL**: [https://vercel.com/agung-gumelar/eternal-core-project/2nVXSLCtwSHESCiox6uZASKfQG6B](https://vercel.com/agung-gumelar/eternal-core-project/2nVXSLCtwSHESCiox6uZASKfQG6B)
+- **Latest Deployment ID**: `dpl_EKbw5hxk8WUUNpSZ2wM3NixVWbLB`
+- **Inspect URL**: [https://vercel.com/agung-gumelar/eternal-core-project/EKbw5hxk8WUUNpSZ2wM3NixVWbLB](https://vercel.com/agung-gumelar/eternal-core-project/EKbw5hxk8WUUNpSZ2wM3NixVWbLB)
 - **Target**: Production
 - **Ready State**: `READY`
-- **Latest Commit**: `3be9f04` ("feat: black & yellow theme, ig logo integration, replace bucket hat event media, update email to eternalproject76@gmail.com")
+- **Latest Commit**: `6f0c79c` ("fix: update navbar brand to ETERNAL CORE PROJECT and fix Lucide CDN icon rendering")
 - **Mechanical Proof (Exit Code 0)**:
   - HTTP Status: `200 OK`
   - Tagline verification: `Integrity from the Inside Out` (Verified present in live HTML)
+  - Navbar branding verification: `ETERNAL CORE PROJECT` (Verified present in live HTML)
+  - Lucide icons runtime initialization: `lucide.createIcons()` (Verified present in live HTML)
   - 5 Service Pillars: Verified (Music Concert & Festival, Brand Activation & Corporate, Esports Tournament Organizer, Wedding & Formal Protocol, Creative Production & Multimedia Equipment)
   - Theme update: Black & Yellow luxury palette verified
   - Official Logo: `assets/logo/eternal-logo.jpg` verified loaded in live DOM
