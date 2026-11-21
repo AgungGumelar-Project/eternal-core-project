@@ -7,6 +7,7 @@
   <meta name="description" content="CV. Eternal Core Project — Integrity from the Inside Out. Layanan resmi Event Organizer, Event Partner, Event Permit (Perizinan Acara & Legalitas Keramaian), Tour & Pariwisata, serta Catering profesional di Kuningan, Jawa Barat.">
   <meta name="keywords" content="Eternal Core Project, Event Organizer Kuningan, Event Partner, Event Permit, Perizinan Acara, Tour & Pariwisata, Catering Event, Agung Gumelar, EO Jawa Barat">
   <meta name="author" content="Agung Gumelar - CV. Eternal Core Project">
+  <link rel="icon" type="image/jpeg" href="assets/logo/eternal-logo.jpg">
 
   <!-- Open Graph / Meta Social -->
   <meta property="og:type" content="website">
@@ -23,14 +24,14 @@
         extend: {
           colors: {
             brand: {
-              dark: '#080c14',
-              surface: '#0f172a',
-              card: '#131e33',
-              border: '#1e293b',
-              accent: '#10b981',       /* Emerald electric */
-              accentHover: '#059669',
+              dark: '#000000',
+              surface: '#0a0a0a',
+              card: '#111111',
+              border: '#212121',
+              accent: '#eab308',       /* Yellow electric / gold */
+              accentHover: '#facc15',
               gold: '#f59e0b',         /* Warm energetic amber */
-              cyan: '#06b6d4'
+              bright: '#e6b800'
             }
           },
           fontFamily: {
@@ -51,40 +52,40 @@
   <style>
     body {
       font-family: 'Plus Jakarta Sans', sans-serif;
-      background-color: #080c14;
-      color: #f1f5f9;
+      background-color: #000000;
+      color: #f4f4f5;
       overflow-x: hidden;
     }
     .font-heading {
       font-family: 'Space Grotesk', sans-serif;
     }
     .glass-nav {
-      background: rgba(8, 12, 20, 0.85);
+      background: rgba(0, 0, 0, 0.88);
       backdrop-filter: blur(16px);
       -webkit-backdrop-filter: blur(16px);
-      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      border-bottom: 1px solid rgba(234, 179, 8, 0.14);
     }
     .glass-card {
-      background: rgba(15, 23, 42, 0.7);
+      background: rgba(17, 17, 17, 0.85);
       backdrop-filter: blur(12px);
-      border: 1px solid rgba(255, 255, 255, 0.07);
+      border: 1px solid rgba(255, 255, 255, 0.08);
     }
     .glass-card:hover {
-      border-color: rgba(16, 185, 129, 0.4);
-      box-shadow: 0 10px 30px -10px rgba(16, 185, 129, 0.15);
+      border-color: rgba(234, 179, 8, 0.45);
+      box-shadow: 0 10px 30px -10px rgba(234, 179, 8, 0.18);
     }
     .gradient-text {
-      background: linear-gradient(135deg, #ffffff 20%, #10b981 70%, #06b6d4 100%);
+      background: linear-gradient(135deg, #ffffff 15%, #facc15 65%, #f59e0b 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
     .gradient-gold {
-      background: linear-gradient(135deg, #f59e0b 0%, #fbbf24 50%, #fef3c7 100%);
+      background: linear-gradient(135deg, #eab308 0%, #facc15 50%, #fef08a 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
     .glow-glow {
-      box-shadow: 0 0 50px -10px rgba(16, 185, 129, 0.25);
+      box-shadow: 0 0 50px -10px rgba(234, 179, 8, 0.28);
     }
     /* Hide scrollbar for gallery filters */
     .no-scrollbar::-webkit-scrollbar {
@@ -96,7 +97,7 @@
     }
   </style>
 </head>
-<body class="selection:bg-emerald-500 selection:text-black">
+<body class="selection:bg-yellow-500 selection:text-black">
 
   <!-- NAVBAR -->
   <header class="fixed top-0 left-0 right-0 z-50 glass-nav transition-all duration-300" id="navbar">
@@ -104,33 +105,31 @@
       <div class="flex items-center justify-between h-20">
         <!-- Logo -->
         <a href="#hero" class="flex items-center gap-3 group">
-          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-500 to-cyan-500 flex items-center justify-center font-heading font-black text-black text-xl shadow-lg shadow-emerald-500/20 group-hover:scale-105 transition-transform">
-            E
-          </div>
+          <img src="assets/logo/eternal-logo.jpg" alt="CV. Eternal Core Project Logo" class="w-10 h-10 rounded-full object-cover border border-yellow-500/30 shadow-lg shadow-yellow-500/15 group-hover:scale-105 transition-transform">
           <div>
             <span class="font-heading font-bold text-lg tracking-wider text-white flex items-center gap-1.5">
-              ETERNAL <span class="text-emerald-400 font-normal">CORE</span>
+              ETERNAL <span class="text-yellow-400 font-normal">CORE</span>
             </span>
-            <span class="block text-[10px] tracking-widest text-slate-400 uppercase -mt-1 font-semibold">Event Production</span>
+            <span class="block text-[10px] tracking-widest text-zinc-400 uppercase -mt-1 font-semibold">Event Production</span>
           </div>
         </a>
 
         <!-- Desktop Navigation -->
-        <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
-          <a href="#about" class="hover:text-emerald-400 transition-colors">Tentang Kami</a>
-          <a href="#services" class="hover:text-emerald-400 transition-colors">Layanan</a>
-          <a href="#portfolio" class="hover:text-emerald-400 transition-colors">Portofolio Acara</a>
-          <a href="#leadership" class="hover:text-emerald-400 transition-colors">Direktur</a>
-          <a href="#clients" class="hover:text-emerald-400 transition-colors">Klien & Mitra</a>
-          <a href="#contact" class="hover:text-emerald-400 transition-colors">Kontak</a>
+        <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-zinc-300">
+          <a href="#about" class="hover:text-yellow-400 transition-colors">Tentang Kami</a>
+          <a href="#services" class="hover:text-yellow-400 transition-colors">Layanan</a>
+          <a href="#portfolio" class="hover:text-yellow-400 transition-colors">Portofolio Acara</a>
+          <a href="#leadership" class="hover:text-yellow-400 transition-colors">Direktur</a>
+          <a href="#clients" class="hover:text-yellow-400 transition-colors">Klien & Mitra</a>
+          <a href="#contact" class="hover:text-yellow-400 transition-colors">Kontak</a>
         </nav>
 
         <!-- CTA Buttons -->
         <div class="hidden lg:flex items-center gap-4">
-          <a href="https://www.instagram.com/eternalll_official/" target="_blank" rel="noopener noreferrer" class="p-2.5 rounded-lg bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-emerald-400 transition-colors border border-slate-700/60" title="Instagram Resmi">
+          <a href="https://www.instagram.com/eternalll_official/" target="_blank" rel="noopener noreferrer" class="p-2.5 rounded-lg bg-neutral-900/90 hover:bg-neutral-800 text-zinc-300 hover:text-yellow-400 transition-colors border border-neutral-800" title="Instagram Resmi">
             <i data-lucide="instagram" class="w-5 h-5"></i>
           </a>
-          <a href="https://wa.me/62895374251587?text=Halo%20CV.%20Eternal%20Core%20Project,%20saya%20tertarik%20untuk%20konsultasi%20produksi%20event." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold text-sm transition-all shadow-lg shadow-emerald-500/20 hover:shadow-emerald-500/40 hover:-translate-y-0.5">
+          <a href="https://wa.me/62895374251587?text=Halo%20CV.%20Eternal%20Core%20Project,%20saya%20tertarik%20untuk%20konsultasi%20produksi%20event." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-yellow-500 hover:bg-yellow-400 text-black font-semibold text-sm transition-all shadow-lg shadow-yellow-500/20 hover:shadow-yellow-500/40 hover:-translate-y-0.5">
             <i data-lucide="message-circle" class="w-4 h-4 fill-current"></i>
             <span>Konsultasi Event</span>
           </a>
@@ -138,7 +137,7 @@
 
         <!-- Mobile Menu Toggle -->
         <div class="flex items-center md:hidden">
-          <button id="mobile-toggle" aria-label="Menu" class="p-2 rounded-lg bg-slate-800/80 text-slate-300 hover:text-white border border-slate-700">
+          <button id="mobile-toggle" aria-label="Menu" class="p-2 rounded-lg bg-neutral-900/90 text-zinc-300 hover:text-white border border-neutral-800">
             <i data-lucide="menu" class="w-6 h-6"></i>
           </button>
         </div>
@@ -146,18 +145,18 @@
     </div>
 
     <!-- Mobile Drawer -->
-    <div id="mobile-menu" class="hidden md:hidden border-b border-slate-800 bg-slate-950/95 backdrop-blur-xl px-6 py-6 space-y-4">
-      <a href="#about" class="mobile-link block text-base text-slate-300 hover:text-emerald-400">Tentang Kami</a>
-      <a href="#services" class="mobile-link block text-base text-slate-300 hover:text-emerald-400">Layanan</a>
-      <a href="#portfolio" class="mobile-link block text-base text-slate-300 hover:text-emerald-400">Portofolio Acara</a>
-      <a href="#leadership" class="mobile-link block text-base text-slate-300 hover:text-emerald-400">Direktur Utama</a>
-      <a href="#clients" class="mobile-link block text-base text-slate-300 hover:text-emerald-400">Klien & Mitra</a>
-      <a href="#contact" class="mobile-link block text-base text-slate-300 hover:text-emerald-400">Kontak</a>
-      <div class="pt-4 border-t border-slate-800 flex flex-col gap-3">
-        <a href="https://wa.me/62895374251587?text=Halo%20CV.%20Eternal%20Core%20Project,%20saya%20ingin%20konsultasi." target="_blank" rel="noopener noreferrer" class="w-full text-center py-3 rounded-xl bg-emerald-500 text-slate-950 font-bold text-sm">
+    <div id="mobile-menu" class="hidden md:hidden border-b border-neutral-800 bg-black/95 backdrop-blur-xl px-6 py-6 space-y-4">
+      <a href="#about" class="mobile-link block text-base text-zinc-300 hover:text-yellow-400">Tentang Kami</a>
+      <a href="#services" class="mobile-link block text-base text-zinc-300 hover:text-yellow-400">Layanan</a>
+      <a href="#portfolio" class="mobile-link block text-base text-zinc-300 hover:text-yellow-400">Portofolio Acara</a>
+      <a href="#leadership" class="mobile-link block text-base text-zinc-300 hover:text-yellow-400">Direktur Utama</a>
+      <a href="#clients" class="mobile-link block text-base text-zinc-300 hover:text-yellow-400">Klien & Mitra</a>
+      <a href="#contact" class="mobile-link block text-base text-zinc-300 hover:text-yellow-400">Kontak</a>
+      <div class="pt-4 border-t border-neutral-800 flex flex-col gap-3">
+        <a href="https://wa.me/62895374251587?text=Halo%20CV.%20Eternal%20Core%20Project,%20saya%20ingin%20konsultasi." target="_blank" rel="noopener noreferrer" class="w-full text-center py-3 rounded-xl bg-yellow-500 text-black font-bold text-sm">
           Chat WhatsApp (0895-3742-51587)
         </a>
-        <a href="https://www.instagram.com/eternalll_official/" target="_blank" rel="noopener noreferrer" class="w-full text-center py-2.5 rounded-xl border border-slate-700 text-slate-300 font-medium text-sm flex items-center justify-center gap-2">
+        <a href="https://www.instagram.com/eternalll_official/" target="_blank" rel="noopener noreferrer" class="w-full text-center py-2.5 rounded-xl border border-neutral-800 text-zinc-300 font-medium text-sm flex items-center justify-center gap-2">
           <i data-lucide="instagram" class="w-4 h-4"></i> @eternalll_official
         </a>
       </div>
@@ -167,14 +166,14 @@
   <!-- HERO SECTION -->
   <section id="hero" class="relative pt-32 pb-24 md:pt-44 md:pb-36 overflow-hidden">
     <!-- Ambient Background Lights -->
-    <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-emerald-500/10 blur-[130px] rounded-full pointer-events-none"></div>
-    <div class="absolute top-1/3 right-10 w-[400px] h-[400px] bg-cyan-500/10 blur-[120px] rounded-full pointer-events-none"></div>
-    <div class="absolute bottom-10 left-10 w-[350px] h-[350px] bg-amber-500/10 blur-[100px] rounded-full pointer-events-none"></div>
+    <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-yellow-500/10 blur-[130px] rounded-full pointer-events-none"></div>
+    <div class="absolute top-1/3 right-10 w-[400px] h-[400px] bg-amber-500/10 blur-[120px] rounded-full pointer-events-none"></div>
+    <div class="absolute bottom-10 left-10 w-[350px] h-[350px] bg-yellow-400/10 blur-[100px] rounded-full pointer-events-none"></div>
 
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
       <!-- Badge -->
-      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs sm:text-sm font-semibold mb-8 animate-pulse">
-        <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-yellow-500/10 border border-yellow-500/25 text-yellow-400 text-xs sm:text-sm font-semibold mb-8 animate-pulse">
+        <span class="w-2 h-2 rounded-full bg-yellow-400"></span>
         CV. Eternal Core Project &bull; Event Organizer &amp; Production
       </div>
 
@@ -184,125 +183,125 @@
       </h1>
 
       <!-- Official Tagline -->
-      <div class="inline-flex items-center justify-center gap-3 px-5 py-2 rounded-full bg-slate-900/75 border border-amber-500/25 mb-6 shadow-lg shadow-amber-500/5">
-        <span class="w-5 h-px bg-gradient-to-r from-transparent to-amber-400/80 hidden sm:inline-block"></span>
+      <div class="inline-flex items-center justify-center gap-3 px-5 py-2 rounded-full bg-neutral-900/80 border border-yellow-500/30 mb-6 shadow-lg shadow-yellow-500/5">
+        <span class="w-5 h-px bg-gradient-to-r from-transparent to-yellow-400/80 hidden sm:inline-block"></span>
         <p class="font-heading text-xs sm:text-sm font-semibold uppercase tracking-[0.2em] gradient-gold">
           &ldquo;Integrity from the Inside Out&rdquo;
         </p>
-        <span class="w-5 h-px bg-gradient-to-l from-transparent to-amber-400/80 hidden sm:inline-block"></span>
+        <span class="w-5 h-px bg-gradient-to-l from-transparent to-yellow-400/80 hidden sm:inline-block"></span>
       </div>
 
-      <p class="text-slate-400 text-base sm:text-xl max-w-3xl mx-auto leading-relaxed mb-10">
+      <p class="text-zinc-400 text-base sm:text-xl max-w-3xl mx-auto leading-relaxed mb-10">
         Mitra produksi event profesional terlengkap di Kuningan dan Jawa Barat. Melayani Event Organizer, Event Partner, Event Permit, Tour &amp; Pariwisata, hingga Catering berstandar tinggi.
       </p>
 
       <!-- CTA Buttons -->
       <div class="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto mb-16">
-        <a href="https://wa.me/62895374251587?text=Halo%20CV.%20Eternal%20Core%20Project,%20kami%20ingin%20mengajak%20kerja%20sama%20event." target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-base transition-all shadow-xl shadow-emerald-500/25 hover:shadow-emerald-500/40 hover:-translate-y-1 flex items-center justify-center gap-2.5">
+        <a href="https://wa.me/62895374251587?text=Halo%20CV.%20Eternal%20Core%20Project,%20kami%20ingin%20mengajak%20kerja%20sama%20event." target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-yellow-500 hover:bg-yellow-400 text-black font-bold text-base transition-all shadow-xl shadow-yellow-500/25 hover:shadow-yellow-500/40 hover:-translate-y-1 flex items-center justify-center gap-2.5">
           <i data-lucide="calendar" class="w-5 h-5"></i>
           <span>Konsultasi &amp; Booking Event</span>
         </a>
-        <a href="#portfolio" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-slate-900/90 hover:bg-slate-800 text-slate-200 font-semibold text-base border border-slate-700/80 transition-all hover:border-slate-500 flex items-center justify-center gap-2.5">
-          <i data-lucide="play-circle" class="w-5 h-5 text-emerald-400"></i>
+        <a href="#portfolio" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-neutral-900/90 hover:bg-neutral-800 text-zinc-200 font-semibold text-base border border-neutral-800 transition-all hover:border-yellow-500/40 flex items-center justify-center gap-2.5">
+          <i data-lucide="play-circle" class="w-5 h-5 text-yellow-400"></i>
           <span>Lihat Portofolio</span>
         </a>
       </div>
 
       <!-- Quick Metrics Strip -->
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto pt-6 border-t border-slate-800/80">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto pt-6 border-t border-neutral-800/80">
         <div class="p-4 rounded-2xl glass-card">
-          <div class="font-heading font-black text-3xl sm:text-4xl text-emerald-400">18+</div>
-          <div class="text-xs sm:text-sm text-slate-400 mt-1 font-medium">Major Events Executed</div>
+          <div class="font-heading font-black text-3xl sm:text-4xl text-yellow-400">18+</div>
+          <div class="text-xs sm:text-sm text-zinc-400 mt-1 font-medium">Major Events Executed</div>
         </div>
         <div class="p-4 rounded-2xl glass-card">
-          <div class="font-heading font-black text-3xl sm:text-4xl text-cyan-400">15.000+</div>
-          <div class="text-xs sm:text-sm text-slate-400 mt-1 font-medium">Happy Attendees</div>
+          <div class="font-heading font-black text-3xl sm:text-4xl text-amber-400">15.000+</div>
+          <div class="text-xs sm:text-sm text-zinc-400 mt-1 font-medium">Happy Attendees</div>
         </div>
         <div class="p-4 rounded-2xl glass-card">
-          <div class="font-heading font-black text-3xl sm:text-4xl text-amber-400">100%</div>
-          <div class="text-xs sm:text-sm text-slate-400 mt-1 font-medium">Legal &amp; Permit Compliance</div>
+          <div class="font-heading font-black text-3xl sm:text-4xl text-yellow-300">100%</div>
+          <div class="text-xs sm:text-sm text-zinc-400 mt-1 font-medium">Legal &amp; Permit Compliance</div>
         </div>
         <div class="p-4 rounded-2xl glass-card">
-          <div class="font-heading font-black text-3xl sm:text-4xl text-emerald-400">12+</div>
-          <div class="text-xs sm:text-sm text-slate-400 mt-1 font-medium">Brand Partner Terkemuka</div>
+          <div class="font-heading font-black text-3xl sm:text-4xl text-yellow-400">12+</div>
+          <div class="text-xs sm:text-sm text-zinc-400 mt-1 font-medium">Brand Partner Terkemuka</div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- ABOUT US SECTION -->
-  <section id="about" class="py-24 bg-slate-950/60 relative border-t border-slate-800/50">
+  <section id="about" class="py-24 bg-[#0a0a0a] relative border-t border-neutral-800/70">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
         <!-- Left Image / Visual -->
         <div class="lg:col-span-5 relative">
-          <div class="relative mx-auto max-w-md rounded-3xl overflow-hidden border border-slate-800 shadow-2xl group">
+          <div class="relative mx-auto max-w-md rounded-3xl overflow-hidden border border-neutral-800 shadow-2xl group">
             <img src="./assets/director/agung-gumelar.jpg" alt="Agung Gumelar - Direktur Utama CV. Eternal Core Project" class="w-full h-auto object-cover grayscale-[20%] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700">
-            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
-            <div class="absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-slate-900/90 backdrop-blur-md border border-slate-700/60">
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-black/25 to-transparent"></div>
+            <div class="absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-neutral-900/90 backdrop-blur-md border border-neutral-800">
               <h3 class="font-heading font-bold text-lg text-white">Agung Gumelar</h3>
-              <p class="text-emerald-400 text-xs font-semibold uppercase tracking-wider">Direktur Utama &amp; Project Lead</p>
-              <p class="text-slate-400 text-xs mt-1">CV. Eternal Core Project &bull; Kuningan, Jawa Barat</p>
+              <p class="text-yellow-400 text-xs font-semibold uppercase tracking-wider">Direktur Utama &amp; Project Lead</p>
+              <p class="text-zinc-400 text-xs mt-1">CV. Eternal Core Project &bull; Kuningan, Jawa Barat</p>
             </div>
           </div>
           <!-- Decorative element -->
-          <div class="absolute -bottom-6 -right-6 w-32 h-32 bg-emerald-500/10 rounded-full blur-2xl pointer-events-none"></div>
+          <div class="absolute -bottom-6 -right-6 w-32 h-32 bg-yellow-500/10 rounded-full blur-2xl pointer-events-none"></div>
         </div>
 
         <!-- Right Content -->
         <div class="lg:col-span-7 space-y-6">
-          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-slate-800 text-emerald-400 text-xs font-semibold uppercase tracking-wider">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-neutral-900 border border-neutral-800 text-yellow-400 text-xs font-semibold uppercase tracking-wider">
             Tentang Perusahaan
           </div>
           <h2 class="font-heading font-bold text-3xl sm:text-4xl text-white leading-tight">
-            Dedikasi Menghadirkan Produksi Acara <span class="text-emerald-400">Presisi &amp; Berdampak Luas</span>
+            Dedikasi Menghadirkan Produksi Acara <span class="text-yellow-400">Presisi &amp; Berdampak Luas</span>
           </h2>
-          <p class="text-slate-300 text-base leading-relaxed">
+          <p class="text-zinc-300 text-base leading-relaxed">
             <strong>CV. Eternal Core Project</strong> adalah badan usaha resmi berkedudukan di <strong>Kuningan, Jawa Barat</strong> yang bergerak di bidang Event Organizer, Creative Production, dan Manajemen Pertunjukan. Beroperasi di bawah kepemimpinan <strong>Agung Gumelar</strong>, kami memadukan manajemen lapangan yang disiplin, eksekusi audio-visual berstandar profesional, perizinan terpadu, dan strategi aktivasi brand yang menyentuh ribuan audiens.
           </p>
-          <p class="text-slate-400 text-sm leading-relaxed">
+          <p class="text-zinc-400 text-sm leading-relaxed">
             Mulai dari tur konser musik lintas wilayah, kompetisi esports skala regional, pagelaran kebudayaan agung Napak Jagat Pasundan, hingga aktivasi brand ternama nasional (Djarum Coklat Kita, Super Soccer, 76, dll.), kami menjamin setiap detail acara berjalan tepat waktu, aman, dan memukau.
           </p>
 
           <!-- Core Pillars -->
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
-            <div class="p-4 rounded-xl bg-slate-900/70 border border-slate-800 flex items-start gap-3">
-              <div class="w-8 h-8 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center shrink-0">
+            <div class="p-4 rounded-xl bg-neutral-900/80 border border-neutral-800 flex items-start gap-3">
+              <div class="w-8 h-8 rounded-lg bg-yellow-500/10 text-yellow-400 flex items-center justify-center shrink-0">
                 <i data-lucide="shield-check" class="w-5 h-5"></i>
               </div>
               <div>
                 <h4 class="font-bold text-sm text-white">Full Legal &amp; Permit</h4>
-                <p class="text-xs text-slate-400 mt-0.5">Badan usaha CV berizin resmi, koordinasi izin kepolisian &amp; satgas komprehensif.</p>
+                <p class="text-xs text-zinc-400 mt-0.5">Badan usaha CV berizin resmi, koordinasi izin kepolisian &amp; satgas komprehensif.</p>
               </div>
             </div>
 
-            <div class="p-4 rounded-xl bg-slate-900/70 border border-slate-800 flex items-start gap-3">
-              <div class="w-8 h-8 rounded-lg bg-cyan-500/10 text-cyan-400 flex items-center justify-center shrink-0">
+            <div class="p-4 rounded-xl bg-neutral-900/80 border border-neutral-800 flex items-start gap-3">
+              <div class="w-8 h-8 rounded-lg bg-amber-500/10 text-amber-400 flex items-center justify-center shrink-0">
                 <i data-lucide="zap" class="w-5 h-5"></i>
               </div>
               <div>
                 <h4 class="font-bold text-sm text-white">End-to-End Production</h4>
-                <p class="text-xs text-slate-400 mt-0.5">Stage, lighting, sound system FOH, talent booking, hingga crowd control terpadu.</p>
+                <p class="text-xs text-zinc-400 mt-0.5">Stage, lighting, sound system FOH, talent booking, hingga crowd control terpadu.</p>
               </div>
             </div>
 
-            <div class="p-4 rounded-xl bg-slate-900/70 border border-slate-800 flex items-start gap-3">
+            <div class="p-4 rounded-xl bg-neutral-900/80 border border-neutral-800 flex items-start gap-3">
               <div class="w-8 h-8 rounded-lg bg-amber-500/10 text-amber-400 flex items-center justify-center shrink-0">
                 <i data-lucide="users" class="w-5 h-5"></i>
               </div>
               <div>
                 <h4 class="font-bold text-sm text-white">Community Engagement</h4>
-                <p class="text-xs text-slate-400 mt-0.5">Koneksi kuat dengan komunitas skateboard, musisi, gamer, hingga seniman adat Sunda.</p>
+                <p class="text-xs text-zinc-400 mt-0.5">Koneksi kuat dengan komunitas skateboard, musisi, gamer, hingga seniman adat Sunda.</p>
               </div>
             </div>
 
-            <div class="p-4 rounded-xl bg-slate-900/70 border border-slate-800 flex items-start gap-3">
-              <div class="w-8 h-8 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center shrink-0">
+            <div class="p-4 rounded-xl bg-neutral-900/80 border border-neutral-800 flex items-start gap-3">
+              <div class="w-8 h-8 rounded-lg bg-yellow-500/10 text-yellow-400 flex items-center justify-center shrink-0">
                 <i data-lucide="award" class="w-5 h-5"></i>
               </div>
               <div>
                 <h4 class="font-bold text-sm text-white">Brand ROI Focused</h4>
-                <p class="text-xs text-slate-400 mt-0.5">Aktivasi merek terukur, visual branding tajam, dan interaksi konsumen maksimal.</p>
+                <p class="text-xs text-zinc-400 mt-0.5">Aktivasi merek terukur, visual branding tajam, dan interaksi konsumen maksimal.</p>
               </div>
             </div>
           </div>
@@ -315,14 +314,14 @@
   <section id="services" class="py-24 relative">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center max-w-3xl mx-auto mb-16">
-        <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-slate-800 text-emerald-400 text-xs font-semibold uppercase tracking-wider mb-3">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-neutral-900 border border-neutral-800 text-yellow-400 text-xs font-semibold uppercase tracking-wider mb-3">
           5 Pilar Layanan Resmi
         </div>
         <h2 class="font-heading font-bold text-3xl sm:text-5xl text-white">
           Solusi Terintegrasi Segala Kebutuhan Acara Anda
         </h2>
-        <p class="text-slate-400 text-base mt-4 leading-relaxed">
-          Berlandaskan nilai <span class="text-amber-300 font-semibold italic">&ldquo;Integrity from the Inside Out&rdquo;</span>, kami menghadirkan lima pilar layanan resmi yang presisi, legal, dan berstandar profesional.
+        <p class="text-zinc-400 text-base mt-4 leading-relaxed">
+          Berlandaskan nilai <span class="text-yellow-300 font-semibold italic">&ldquo;Integrity from the Inside Out&rdquo;</span>, kami menghadirkan lima pilar layanan resmi yang presisi, legal, dan berstandar profesional.
         </p>
       </div>
 
@@ -331,19 +330,19 @@
         <div class="w-full md:w-[calc(50%-0.75rem)] lg:w-[calc(33.3333%-1rem)] p-8 rounded-3xl glass-card transition-all duration-300 flex flex-col justify-between group">
           <div>
             <div class="flex items-start justify-between mb-6">
-              <div class="w-14 h-14 rounded-2xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center group-hover:scale-110 group-hover:bg-emerald-500 group-hover:text-black transition-all">
+              <div class="w-14 h-14 rounded-2xl bg-yellow-500/10 text-yellow-400 flex items-center justify-center group-hover:scale-110 group-hover:bg-yellow-500 group-hover:text-black transition-all">
                 <i data-lucide="sparkles" class="w-7 h-7"></i>
               </div>
-              <span class="px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">Pilar 01</span>
+              <span class="px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider bg-yellow-500/10 text-yellow-400 border border-yellow-500/25">Pilar 01</span>
             </div>
             <h3 class="font-heading font-bold text-xl text-white mb-3">Event Organizer</h3>
-            <p class="text-slate-400 text-sm leading-relaxed mb-6">
+            <p class="text-zinc-400 text-sm leading-relaxed mb-6">
               Perencanaan konsep hingga eksekusi panggung menyeluruh untuk Konser &amp; Festival Musik, Turnamen Esports, Pagelaran Budaya Tradisional, maupun Community &amp; Sport Gathering.
             </p>
           </div>
-          <ul class="text-xs text-slate-300 space-y-2 border-t border-slate-800 pt-4">
-            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-400 shrink-0"></i> Break Out Day, Shout Of Sound, Super MLBB &amp; Napak Jagat</li>
-            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-400 shrink-0"></i> Manajemen Panggung, FOH Audio-Lighting &amp; Crowd Control</li>
+          <ul class="text-xs text-zinc-300 space-y-2 border-t border-neutral-800 pt-4">
+            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-yellow-400 shrink-0"></i> Break Out Day, Shout Of Sound, Super MLBB &amp; Napak Jagat</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-yellow-400 shrink-0"></i> Manajemen Panggung, FOH Audio-Lighting &amp; Crowd Control</li>
           </ul>
         </div>
 
@@ -351,19 +350,19 @@
         <div class="w-full md:w-[calc(50%-0.75rem)] lg:w-[calc(33.3333%-1rem)] p-8 rounded-3xl glass-card transition-all duration-300 flex flex-col justify-between group">
           <div>
             <div class="flex items-start justify-between mb-6">
-              <div class="w-14 h-14 rounded-2xl bg-cyan-500/10 text-cyan-400 flex items-center justify-center group-hover:scale-110 group-hover:bg-cyan-500 group-hover:text-black transition-all">
+              <div class="w-14 h-14 rounded-2xl bg-amber-500/10 text-amber-400 flex items-center justify-center group-hover:scale-110 group-hover:bg-amber-400 group-hover:text-black transition-all">
                 <i data-lucide="heart-handshake" class="w-7 h-7"></i>
               </div>
-              <span class="px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">Pilar 02</span>
+              <span class="px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider bg-amber-500/10 text-amber-400 border border-amber-500/25">Pilar 02</span>
             </div>
             <h3 class="font-heading font-bold text-xl text-white mb-3">Event Partner</h3>
-            <p class="text-slate-400 text-sm leading-relaxed mb-6">
+            <p class="text-zinc-400 text-sm leading-relaxed mb-6">
               Mitra kolaborasi strategis bagi brand nasional, korporasi, dan instansi dalam program Brand Activation, Roadshow multi-kota, serta dukungan teknis rigging, LED wall, sound system, dan kru lapangan.
             </p>
           </div>
-          <ul class="text-xs text-slate-300 space-y-2 border-t border-slate-800 pt-4">
-            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-cyan-400 shrink-0"></i> Brand Activation &amp; Roadshow (Coklat Kita, Djarum 76, Super Soccer)</li>
-            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-cyan-400 shrink-0"></i> Dukungan Produksi Teknis, Logistik &amp; Crew On-Site 24/7</li>
+          <ul class="text-xs text-zinc-300 space-y-2 border-t border-neutral-800 pt-4">
+            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-400 shrink-0"></i> Brand Activation &amp; Roadshow (Coklat Kita, Djarum 76, Super Soccer)</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-400 shrink-0"></i> Dukungan Produksi Teknis, Logistik &amp; Crew On-Site 24/7</li>
           </ul>
         </div>
 
@@ -371,20 +370,20 @@
         <div class="w-full md:w-[calc(50%-0.75rem)] lg:w-[calc(33.3333%-1rem)] p-8 rounded-3xl glass-card transition-all duration-300 flex flex-col justify-between group">
           <div>
             <div class="flex items-start justify-between mb-6">
-              <div class="w-14 h-14 rounded-2xl bg-amber-500/10 text-amber-400 flex items-center justify-center group-hover:scale-110 group-hover:bg-amber-500 group-hover:text-black transition-all">
+              <div class="w-14 h-14 rounded-2xl bg-yellow-400/10 text-yellow-300 flex items-center justify-center group-hover:scale-110 group-hover:bg-yellow-400 group-hover:text-black transition-all">
                 <i data-lucide="shield-check" class="w-7 h-7"></i>
               </div>
-              <span class="px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider bg-amber-500/10 text-amber-400 border border-amber-500/20">Pilar 03</span>
+              <span class="px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider bg-yellow-400/10 text-yellow-300 border border-yellow-400/25">Pilar 03</span>
             </div>
             <h3 class="font-heading font-bold text-xl text-white mb-1">Event Permit</h3>
-            <p class="text-xs font-semibold text-amber-400/90 mb-3">Pengurusan Perizinan Acara &amp; Legalitas Keramaian</p>
-            <p class="text-slate-400 text-sm leading-relaxed mb-6">
+            <p class="text-xs font-semibold text-yellow-400/90 mb-3">Pengurusan Perizinan Acara &amp; Legalitas Keramaian</p>
+            <p class="text-zinc-400 text-sm leading-relaxed mb-6">
               Layanan profesional pengurusan perizinan acara dan legalitas keramaian secara resmi, terpadu, dan patuh regulasi demi menjamin keamanan hukum serta kelancaran operasional event.
             </p>
           </div>
-          <ul class="text-xs text-slate-300 space-y-2 border-t border-slate-800 pt-4">
-            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-400 shrink-0"></i> Izin Keramaian Kepolisian, Rekomendasi Pemda &amp; Satgas</li>
-            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-400 shrink-0"></i> Legalitas Badan Usaha CV Resmi &amp; Kepatuhan Keamanan Venue</li>
+          <ul class="text-xs text-zinc-300 space-y-2 border-t border-neutral-800 pt-4">
+            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-yellow-400 shrink-0"></i> Izin Keramaian Kepolisian, Rekomendasi Pemda &amp; Satgas</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-yellow-400 shrink-0"></i> Legalitas Badan Usaha CV Resmi &amp; Kepatuhan Keamanan Venue</li>
           </ul>
         </div>
 
@@ -392,19 +391,19 @@
         <div class="w-full md:w-[calc(50%-0.75rem)] lg:w-[calc(33.3333%-1rem)] p-8 rounded-3xl glass-card transition-all duration-300 flex flex-col justify-between group">
           <div>
             <div class="flex items-start justify-between mb-6">
-              <div class="w-14 h-14 rounded-2xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center group-hover:scale-110 group-hover:bg-emerald-500 group-hover:text-black transition-all">
+              <div class="w-14 h-14 rounded-2xl bg-amber-500/10 text-amber-400 flex items-center justify-center group-hover:scale-110 group-hover:bg-amber-500 group-hover:text-black transition-all">
                 <i data-lucide="compass" class="w-7 h-7"></i>
               </div>
-              <span class="px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">Pilar 04</span>
+              <span class="px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider bg-amber-500/10 text-amber-400 border border-amber-500/25">Pilar 04</span>
             </div>
             <h3 class="font-heading font-bold text-xl text-white mb-3">Tour &amp; Pariwisata</h3>
-            <p class="text-slate-400 text-sm leading-relaxed mb-6">
+            <p class="text-zinc-400 text-sm leading-relaxed mb-6">
               Penyelenggaraan perjalanan wisata terkurasi, corporate outing, family gathering instansi, serta eksplorasi destinasi unggulan Kuningan, Jawa Barat, dan luar daerah dengan layanan penuh kehangatan.
             </p>
           </div>
-          <ul class="text-xs text-slate-300 space-y-2 border-t border-slate-800 pt-4">
-            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-400 shrink-0"></i> Corporate Outing, Study Tour &amp; Gathering Terintegrasi</li>
-            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-emerald-400 shrink-0"></i> Transportasi, Akomodasi, Itinerary &amp; Tour Leader Profesional</li>
+          <ul class="text-xs text-zinc-300 space-y-2 border-t border-neutral-800 pt-4">
+            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-400 shrink-0"></i> Corporate Outing, Study Tour &amp; Gathering Terintegrasi</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-amber-400 shrink-0"></i> Transportasi, Akomodasi, Itinerary &amp; Tour Leader Profesional</li>
           </ul>
         </div>
 
@@ -412,19 +411,19 @@
         <div class="w-full md:w-[calc(50%-0.75rem)] lg:w-[calc(33.3333%-1rem)] p-8 rounded-3xl glass-card transition-all duration-300 flex flex-col justify-between group">
           <div>
             <div class="flex items-start justify-between mb-6">
-              <div class="w-14 h-14 rounded-2xl bg-cyan-500/10 text-cyan-400 flex items-center justify-center group-hover:scale-110 group-hover:bg-cyan-500 group-hover:text-black transition-all">
+              <div class="w-14 h-14 rounded-2xl bg-yellow-500/10 text-yellow-400 flex items-center justify-center group-hover:scale-110 group-hover:bg-yellow-500 group-hover:text-black transition-all">
                 <i data-lucide="utensils" class="w-7 h-7"></i>
               </div>
-              <span class="px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">Pilar 05</span>
+              <span class="px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider bg-yellow-500/10 text-yellow-400 border border-yellow-500/25">Pilar 05</span>
             </div>
             <h3 class="font-heading font-bold text-xl text-white mb-3">Catering</h3>
-            <p class="text-slate-400 text-sm leading-relaxed mb-6">
+            <p class="text-zinc-400 text-sm leading-relaxed mb-6">
               Penyediaan layanan konsumsi berstandar higienis dengan cita rasa premium untuk kebutuhan VIP &amp; artist hospitality, tamu undangan, rapat korporasi, hingga jamuan kru produksi di lapangan.
             </p>
           </div>
-          <ul class="text-xs text-slate-300 space-y-2 border-t border-slate-800 pt-4">
-            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-cyan-400 shrink-0"></i> Artist &amp; VIP Hospitality, Guest Banquet &amp; Crew Meal</li>
-            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-cyan-400 shrink-0"></i> Paket Prasmanan, Nasi Box &amp; Coffee Break Skala Event</li>
+          <ul class="text-xs text-zinc-300 space-y-2 border-t border-neutral-800 pt-4">
+            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-yellow-400 shrink-0"></i> Artist &amp; VIP Hospitality, Guest Banquet &amp; Crew Meal</li>
+            <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-yellow-400 shrink-0"></i> Paket Prasmanan, Nasi Box &amp; Coffee Break Skala Event</li>
           </ul>
         </div>
       </div>
@@ -432,28 +431,28 @@
   </section>
 
   <!-- PORTFOLIO / GALLERY SECTION -->
-  <section id="portfolio" class="py-24 bg-slate-950/70 relative border-t border-slate-800/60">
+  <section id="portfolio" class="py-24 bg-[#0a0a0a] relative border-t border-neutral-800/70">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
         <div>
-          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-slate-800 text-emerald-400 text-xs font-semibold uppercase tracking-wider mb-3">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-neutral-900 border border-neutral-800 text-yellow-400 text-xs font-semibold uppercase tracking-wider mb-3">
             Portofolio Dokumentasi Nyata
           </div>
           <h2 class="font-heading font-bold text-3xl sm:text-5xl text-white">
             Karya &amp; Event yang Telah Kami Eksekusi
           </h2>
-          <p class="text-slate-400 text-base mt-3 max-w-2xl">
+          <p class="text-zinc-400 text-base mt-3 max-w-2xl">
             Bukti nyata kepiawaian CV. Eternal Core Project dalam mengelola panggung, massa, dan kemeriahan di berbagai kota di Indonesia.
           </p>
         </div>
 
         <!-- Filter Buttons -->
         <div class="flex items-center gap-2 mt-6 md:mt-0 overflow-x-auto no-scrollbar pb-2" id="filter-container">
-          <button class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all bg-emerald-500 text-black active" data-filter="all">Semua (14)</button>
-          <button class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all bg-slate-900 text-slate-300 hover:text-white border border-slate-800" data-filter="music">Konser &amp; Musik</button>
-          <button class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all bg-slate-900 text-slate-300 hover:text-white border border-slate-800" data-filter="brand">Brand Activation</button>
-          <button class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all bg-slate-900 text-slate-300 hover:text-white border border-slate-800" data-filter="esports">Esports</button>
-          <button class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all bg-slate-900 text-slate-300 hover:text-white border border-slate-800" data-filter="community">Budaya &amp; Komunitas</button>
+          <button class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all bg-yellow-500 text-black active" data-filter="all">Semua (14)</button>
+          <button class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all bg-neutral-900 text-zinc-300 hover:text-white border border-neutral-800" data-filter="music">Konser &amp; Musik</button>
+          <button class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all bg-neutral-900 text-zinc-300 hover:text-white border border-neutral-800" data-filter="brand">Brand Activation</button>
+          <button class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all bg-neutral-900 text-zinc-300 hover:text-white border border-neutral-800" data-filter="esports">Esports</button>
+          <button class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all bg-neutral-900 text-zinc-300 hover:text-white border border-neutral-800" data-filter="community">Budaya &amp; Komunitas</button>
         </div>
       </div>
 
@@ -465,39 +464,39 @@
   <!-- LEADERSHIP / DIREKTUR UTAMA SECTION -->
   <section id="leadership" class="py-24 relative overflow-hidden">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="relative rounded-3xl glass-card p-8 sm:p-12 lg:p-16 border border-slate-800">
+      <div class="relative rounded-3xl glass-card p-8 sm:p-12 lg:p-16 border border-neutral-800">
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           <div class="lg:col-span-4 text-center lg:text-left">
             <div class="relative inline-block">
-              <img src="./assets/director/agung-gumelar.jpg" alt="Agung Gumelar" class="w-48 h-48 sm:w-56 sm:h-56 rounded-full object-cover border-4 border-emerald-500/30 shadow-2xl mx-auto">
-              <div class="absolute bottom-2 right-2 w-7 h-7 bg-emerald-500 rounded-full border-4 border-slate-950 flex items-center justify-center text-slate-950" title="Terverifikasi">
+              <img src="./assets/director/agung-gumelar.jpg" alt="Agung Gumelar" class="w-48 h-48 sm:w-56 sm:h-56 rounded-full object-cover border-4 border-yellow-500/35 shadow-2xl mx-auto">
+              <div class="absolute bottom-2 right-2 w-7 h-7 bg-yellow-500 rounded-full border-4 border-black flex items-center justify-center text-black" title="Terverifikasi">
                 <i data-lucide="check" class="w-4 h-4 stroke-[3]"></i>
               </div>
             </div>
             <h3 class="font-heading font-bold text-2xl text-white mt-6">Agung Gumelar</h3>
-            <p class="text-emerald-400 text-sm font-semibold tracking-wide uppercase">Direktur Utama</p>
-            <p class="text-slate-400 text-xs mt-1">CV. Eternal Core Project</p>
+            <p class="text-yellow-400 text-sm font-semibold tracking-wide uppercase">Direktur Utama</p>
+            <p class="text-zinc-400 text-xs mt-1">CV. Eternal Core Project</p>
           </div>
 
           <div class="lg:col-span-8 space-y-5">
-            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800 text-emerald-400 text-xs font-semibold uppercase tracking-wider">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-neutral-900 border border-neutral-800 text-yellow-400 text-xs font-semibold uppercase tracking-wider">
               Pesan Pimpinan
             </div>
             <h2 class="font-heading font-bold text-2xl sm:text-3xl text-white leading-snug">
               "Sebuah event bukan sekadar kerumunan, melainkan memori berharga dan nilai merek yang membekas selamanya di hati setiap pengunjung."
             </h2>
-            <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+            <p class="text-zinc-300 text-sm sm:text-base leading-relaxed">
               Di <strong>CV. Eternal Core Project</strong>, kami memegang teguh komitmen integritas, presisi panggung, dan keselamatan penonton. Setiap ide kreatif klien kami terjemahkan menjadi rencana operasional yang terukur secara teknis, estetis, dan legal. Kami siap menjadi motor penggerak kebangkitan industri event dan ekonomi kreatif di Jawa Barat dan seluruh Indonesia.
             </p>
             <div class="pt-4 flex flex-wrap items-center gap-6">
-              <div class="flex items-center gap-2 text-slate-400 text-sm">
-                <i data-lucide="map-pin" class="w-4 h-4 text-emerald-400"></i> Kuningan, Jawa Barat
+              <div class="flex items-center gap-2 text-zinc-400 text-sm">
+                <i data-lucide="map-pin" class="w-4 h-4 text-yellow-400"></i> Kuningan, Jawa Barat
               </div>
-              <div class="flex items-center gap-2 text-slate-400 text-sm">
-                <i data-lucide="mail" class="w-4 h-4 text-cyan-400"></i> agunggumelar190701@gmail.com
+              <div class="flex items-center gap-2 text-zinc-400 text-sm">
+                <i data-lucide="mail" class="w-4 h-4 text-amber-400"></i> eternalproject76@gmail.com
               </div>
-              <div class="flex items-center gap-2 text-slate-400 text-sm">
-                <i data-lucide="phone" class="w-4 h-4 text-amber-400"></i> +62 895-3742-51587
+              <div class="flex items-center gap-2 text-zinc-400 text-sm">
+                <i data-lucide="phone" class="w-4 h-4 text-yellow-300"></i> +62 895-3742-51587
               </div>
             </div>
           </div>
@@ -507,29 +506,29 @@
   </section>
 
   <!-- CLIENT & PARTNER SECTION -->
-  <section id="clients" class="py-20 bg-slate-950/80 border-t border-slate-800/60">
+  <section id="clients" class="py-20 bg-[#080808] border-t border-neutral-800/70">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <p class="text-xs uppercase tracking-widest text-slate-400 font-bold mb-8">
+      <p class="text-xs uppercase tracking-widest text-zinc-400 font-bold mb-8">
         Merek &amp; Program Nasional yang Telah Bermitra Bersama Kami
       </p>
 
       <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 items-center">
-        <div class="p-4 rounded-2xl bg-slate-900/60 border border-slate-800/80 text-slate-300 font-heading font-bold text-sm tracking-wider hover:text-emerald-400 hover:border-emerald-500/40 transition-colors">
+        <div class="p-4 rounded-2xl bg-neutral-900/80 border border-neutral-800 text-zinc-300 font-heading font-bold text-sm tracking-wider hover:text-yellow-400 hover:border-yellow-500/40 transition-colors">
           DJARUM 76
         </div>
-        <div class="p-4 rounded-2xl bg-slate-900/60 border border-slate-800/80 text-slate-300 font-heading font-bold text-sm tracking-wider hover:text-emerald-400 hover:border-emerald-500/40 transition-colors">
+        <div class="p-4 rounded-2xl bg-neutral-900/80 border border-neutral-800 text-zinc-300 font-heading font-bold text-sm tracking-wider hover:text-yellow-400 hover:border-yellow-500/40 transition-colors">
           COKLAT KITA
         </div>
-        <div class="p-4 rounded-2xl bg-slate-900/60 border border-slate-800/80 text-slate-300 font-heading font-bold text-sm tracking-wider hover:text-emerald-400 hover:border-emerald-500/40 transition-colors">
+        <div class="p-4 rounded-2xl bg-neutral-900/80 border border-neutral-800 text-zinc-300 font-heading font-bold text-sm tracking-wider hover:text-yellow-400 hover:border-yellow-500/40 transition-colors">
           SUPER SOCCER
         </div>
-        <div class="p-4 rounded-2xl bg-slate-900/60 border border-slate-800/80 text-slate-300 font-heading font-bold text-sm tracking-wider hover:text-emerald-400 hover:border-emerald-500/40 transition-colors">
+        <div class="p-4 rounded-2xl bg-neutral-900/80 border border-neutral-800 text-zinc-300 font-heading font-bold text-sm tracking-wider hover:text-yellow-400 hover:border-yellow-500/40 transition-colors">
           BREAK OUT DAY
         </div>
-        <div class="p-4 rounded-2xl bg-slate-900/60 border border-slate-800/80 text-slate-300 font-heading font-bold text-sm tracking-wider hover:text-emerald-400 hover:border-emerald-500/40 transition-colors">
+        <div class="p-4 rounded-2xl bg-neutral-900/80 border border-neutral-800 text-zinc-300 font-heading font-bold text-sm tracking-wider hover:text-yellow-400 hover:border-yellow-500/40 transition-colors">
           NAPAK JAGAT
         </div>
-        <div class="p-4 rounded-2xl bg-slate-900/60 border border-slate-800/80 text-slate-300 font-heading font-bold text-sm tracking-wider hover:text-emerald-400 hover:border-emerald-500/40 transition-colors">
+        <div class="p-4 rounded-2xl bg-neutral-900/80 border border-neutral-800 text-zinc-300 font-heading font-bold text-sm tracking-wider hover:text-yellow-400 hover:border-yellow-500/40 transition-colors">
           MABES HEPPIII
         </div>
       </div>
@@ -543,45 +542,45 @@
         <!-- Contact Info -->
         <div class="lg:col-span-5 space-y-8">
           <div>
-            <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-slate-800 text-emerald-400 text-xs font-semibold uppercase tracking-wider mb-3">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-neutral-900 border border-neutral-800 text-yellow-400 text-xs font-semibold uppercase tracking-wider mb-3">
               Hubungi Kami
             </div>
             <h2 class="font-heading font-bold text-3xl sm:text-4xl text-white">
               Siap Mewujudkan Event Impian Anda?
             </h2>
-            <p class="text-slate-400 text-sm mt-3 leading-relaxed">
+            <p class="text-zinc-400 text-sm mt-3 leading-relaxed">
               Diskusikan konsep panggung, jadwal roadshow, rancangan anggaran biaya (RAB), hingga perizinan acara Anda langsung bersama tim pimpinan kami.
             </p>
           </div>
 
           <div class="space-y-4">
-            <a href="https://wa.me/62895374251587" target="_blank" rel="noopener noreferrer" class="p-4 rounded-2xl glass-card flex items-center gap-4 hover:border-emerald-500/50 transition-colors group">
-              <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center shrink-0 group-hover:bg-emerald-500 group-hover:text-black transition-all">
+            <a href="https://wa.me/62895374251587" target="_blank" rel="noopener noreferrer" class="p-4 rounded-2xl glass-card flex items-center gap-4 hover:border-yellow-500/50 transition-colors group">
+              <div class="w-12 h-12 rounded-xl bg-yellow-500/10 text-yellow-400 flex items-center justify-center shrink-0 group-hover:bg-yellow-500 group-hover:text-black transition-all">
                 <i data-lucide="message-square" class="w-6 h-6"></i>
               </div>
               <div>
-                <p class="text-xs text-slate-400 font-medium">WhatsApp Direct</p>
+                <p class="text-xs text-zinc-400 font-medium">WhatsApp Direct</p>
                 <p class="font-heading font-bold text-white text-base">+62 895-3742-51587</p>
               </div>
             </a>
 
-            <a href="https://www.instagram.com/eternalll_official/" target="_blank" rel="noopener noreferrer" class="p-4 rounded-2xl glass-card flex items-center gap-4 hover:border-pink-500/50 transition-colors group">
-              <div class="w-12 h-12 rounded-xl bg-pink-500/10 text-pink-400 flex items-center justify-center shrink-0 group-hover:bg-pink-500 group-hover:text-white transition-all">
+            <a href="https://www.instagram.com/eternalll_official/" target="_blank" rel="noopener noreferrer" class="p-4 rounded-2xl glass-card flex items-center gap-4 hover:border-amber-500/50 transition-colors group">
+              <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center shrink-0 group-hover:bg-amber-500 group-hover:text-black transition-all">
                 <i data-lucide="instagram" class="w-6 h-6"></i>
               </div>
               <div>
-                <p class="text-xs text-slate-400 font-medium">Instagram Resmi</p>
+                <p class="text-xs text-zinc-400 font-medium">Instagram Resmi</p>
                 <p class="font-heading font-bold text-white text-base">@eternalll_official</p>
               </div>
             </a>
 
-            <a href="mailto:agunggumelar190701@gmail.com" class="p-4 rounded-2xl glass-card flex items-center gap-4 hover:border-cyan-500/50 transition-colors group">
-              <div class="w-12 h-12 rounded-xl bg-cyan-500/10 text-cyan-400 flex items-center justify-center shrink-0 group-hover:bg-cyan-500 group-hover:text-black transition-all">
+            <a href="mailto:eternalproject76@gmail.com" class="p-4 rounded-2xl glass-card flex items-center gap-4 hover:border-yellow-500/50 transition-colors group">
+              <div class="w-12 h-12 rounded-xl bg-yellow-500/10 text-yellow-400 flex items-center justify-center shrink-0 group-hover:bg-yellow-500 group-hover:text-black transition-all">
                 <i data-lucide="mail" class="w-6 h-6"></i>
               </div>
               <div>
-                <p class="text-xs text-slate-400 font-medium">Email Korespondensi</p>
-                <p class="font-heading font-bold text-white text-base">agunggumelar190701@gmail.com</p>
+                <p class="text-xs text-zinc-400 font-medium">Email Korespondensi</p>
+                <p class="font-heading font-bold text-white text-base">eternalproject76@gmail.com</p>
               </div>
             </a>
 
@@ -590,7 +589,7 @@
                 <i data-lucide="map-pin" class="w-6 h-6"></i>
               </div>
               <div>
-                <p class="text-xs text-slate-400 font-medium">Head Office &amp; Warehouse</p>
+                <p class="text-xs text-zinc-400 font-medium">Head Office &amp; Warehouse</p>
                 <p class="font-heading font-bold text-white text-base">Kuningan, Jawa Barat, Indonesia</p>
               </div>
             </div>
@@ -599,26 +598,26 @@
 
         <!-- Quick WA Form Generator -->
         <div class="lg:col-span-7">
-          <div class="p-8 sm:p-10 rounded-3xl glass-card border border-slate-800">
+          <div class="p-8 sm:p-10 rounded-3xl glass-card border border-neutral-800">
             <h3 class="font-heading font-bold text-2xl text-white mb-2">Formulir Cepat Konsultasi Acara</h3>
-            <p class="text-slate-400 text-xs sm:text-sm mb-6">Isi formulir ini untuk langsung terhubung ke WhatsApp pimpinan dengan draft pesan terformat.</p>
+            <p class="text-zinc-400 text-xs sm:text-sm mb-6">Isi formulir ini untuk langsung terhubung ke WhatsApp pimpinan dengan draft pesan terformat.</p>
 
             <form id="consultation-form" class="space-y-4">
               <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
-                  <label class="block text-xs font-semibold text-slate-300 uppercase mb-2">Nama Anda / Instansi</label>
-                  <input type="text" id="form-name" required placeholder="Contoh: Budi Santoso / PT. Sinar Abadi" class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-700/80 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-emerald-400 transition-colors">
+                  <label class="block text-xs font-semibold text-zinc-300 uppercase mb-2">Nama Anda / Instansi</label>
+                  <input type="text" id="form-name" required placeholder="Contoh: Budi Santoso / PT. Sinar Abadi" class="w-full px-4 py-3 rounded-xl bg-neutral-900 border border-neutral-800 text-white placeholder-zinc-500 text-sm focus:outline-none focus:border-yellow-400 transition-colors">
                 </div>
                 <div>
-                  <label class="block text-xs font-semibold text-slate-300 uppercase mb-2">Nomor Telepon / WhatsApp</label>
-                  <input type="tel" id="form-phone" required placeholder="081234567xxx" class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-700/80 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-emerald-400 transition-colors">
+                  <label class="block text-xs font-semibold text-zinc-300 uppercase mb-2">Nomor Telepon / WhatsApp</label>
+                  <input type="tel" id="form-phone" required placeholder="081234567xxx" class="w-full px-4 py-3 rounded-xl bg-neutral-900 border border-neutral-800 text-white placeholder-zinc-500 text-sm focus:outline-none focus:border-yellow-400 transition-colors">
                 </div>
               </div>
 
               <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
-                  <label class="block text-xs font-semibold text-slate-300 uppercase mb-2">Jenis Layanan / Acara</label>
-                  <select id="form-type" class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-700/80 text-white text-sm focus:outline-none focus:border-emerald-400 transition-colors">
+                  <label class="block text-xs font-semibold text-zinc-300 uppercase mb-2">Jenis Layanan / Acara</label>
+                  <select id="form-type" class="w-full px-4 py-3 rounded-xl bg-neutral-900 border border-neutral-800 text-white text-sm focus:outline-none focus:border-yellow-400 transition-colors">
                     <option value="Event Organizer (Konser / Festival / Esports / Budaya)">Event Organizer (Konser / Festival / Esports / Budaya)</option>
                     <option value="Event Partner (Brand Activation / Roadshow / Produksi)">Event Partner (Brand Activation / Roadshow / Produksi)</option>
                     <option value="Event Permit (Pengurusan Perizinan & Legalitas Keramaian)">Event Permit (Pengurusan Perizinan &amp; Legalitas Keramaian)</option>
@@ -628,17 +627,17 @@
                   </select>
                 </div>
                 <div>
-                  <label class="block text-xs font-semibold text-slate-300 uppercase mb-2">Perkiraan Waktu / Lokasi</label>
-                  <input type="text" id="form-time" placeholder="Contoh: Juli 2026 / Cirebon - Kuningan" class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-700/80 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-emerald-400 transition-colors">
+                  <label class="block text-xs font-semibold text-zinc-300 uppercase mb-2">Perkiraan Waktu / Lokasi</label>
+                  <input type="text" id="form-time" placeholder="Contoh: Juli 2026 / Cirebon - Kuningan" class="w-full px-4 py-3 rounded-xl bg-neutral-900 border border-neutral-800 text-white placeholder-zinc-500 text-sm focus:outline-none focus:border-yellow-400 transition-colors">
                 </div>
               </div>
 
               <div>
-                <label class="block text-xs font-semibold text-slate-300 uppercase mb-2">Kebutuhan Acara / Deskripsi Singkat</label>
-                <textarea id="form-notes" rows="4" placeholder="Ceritakan konsep, target penonton, atau kebutuhan teknis yang diinginkan..." class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-700/80 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-emerald-400 transition-colors"></textarea>
+                <label class="block text-xs font-semibold text-zinc-300 uppercase mb-2">Kebutuhan Acara / Deskripsi Singkat</label>
+                <textarea id="form-notes" rows="4" placeholder="Ceritakan konsep, target penonton, atau kebutuhan teknis yang diinginkan..." class="w-full px-4 py-3 rounded-xl bg-neutral-900 border border-neutral-800 text-white placeholder-zinc-500 text-sm focus:outline-none focus:border-yellow-400 transition-colors"></textarea>
               </div>
 
-              <button type="submit" class="w-full py-4 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-base transition-all shadow-xl shadow-emerald-500/25 hover:shadow-emerald-500/40 flex items-center justify-center gap-2">
+              <button type="submit" class="w-full py-4 rounded-xl bg-yellow-500 hover:bg-yellow-400 text-black font-bold text-base transition-all shadow-xl shadow-yellow-500/25 hover:shadow-yellow-500/40 flex items-center justify-center gap-2">
                 <i data-lucide="send" class="w-5 h-5"></i>
                 <span>Kirim Pesan ke WhatsApp Direktur Utama</span>
               </button>
@@ -650,73 +649,71 @@
   </section>
 
   <!-- FOOTER -->
-  <footer class="border-t border-slate-800 bg-slate-950 py-12">
+  <footer class="border-t border-neutral-800 bg-black py-12">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex flex-col md:flex-row items-center justify-between gap-6">
         <div class="flex items-center gap-3">
-          <div class="w-8 h-8 rounded-lg bg-emerald-500 flex items-center justify-center font-heading font-black text-black text-base shrink-0">
-            E
-          </div>
+          <img src="assets/logo/eternal-logo.jpg" alt="CV. Eternal Core Project Logo" class="w-8 h-8 rounded-full object-cover border border-yellow-500/30 shrink-0">
           <div>
             <span class="font-heading font-bold text-base text-white">CV. ETERNAL CORE PROJECT</span>
             <p class="text-xs font-semibold tracking-wider uppercase gradient-gold mt-0.5">&ldquo;Integrity from the Inside Out&rdquo;</p>
-            <p class="text-xs text-slate-400 mt-0.5">Creative Event Production &bull; Direktur: Agung Gumelar</p>
+            <p class="text-xs text-zinc-400 mt-0.5">Creative Event Production &bull; Direktur: Agung Gumelar</p>
           </div>
         </div>
 
-        <div class="flex items-center gap-6 text-sm text-slate-400">
-          <a href="#about" class="hover:text-emerald-400 transition-colors">Tentang</a>
-          <a href="#services" class="hover:text-emerald-400 transition-colors">Layanan</a>
-          <a href="#portfolio" class="hover:text-emerald-400 transition-colors">Portofolio</a>
-          <a href="https://www.instagram.com/eternalll_official/" target="_blank" rel="noopener noreferrer" class="hover:text-emerald-400 transition-colors flex items-center gap-1">
+        <div class="flex items-center gap-6 text-sm text-zinc-400">
+          <a href="#about" class="hover:text-yellow-400 transition-colors">Tentang</a>
+          <a href="#services" class="hover:text-yellow-400 transition-colors">Layanan</a>
+          <a href="#portfolio" class="hover:text-yellow-400 transition-colors">Portofolio</a>
+          <a href="https://www.instagram.com/eternalll_official/" target="_blank" rel="noopener noreferrer" class="hover:text-yellow-400 transition-colors flex items-center gap-1">
             <i data-lucide="instagram" class="w-4 h-4"></i> @eternalll_official
           </a>
         </div>
       </div>
 
-      <div class="mt-8 pt-8 border-t border-slate-900 text-center md:flex md:justify-between md:items-center text-xs text-slate-400">
+      <div class="mt-8 pt-8 border-t border-neutral-900 text-center md:flex md:justify-between md:items-center text-xs text-zinc-400">
         <p>&copy; 2026 CV. Eternal Core Project. All rights reserved. Berkedudukan di Kuningan, Jawa Barat.</p>
-        <p class="mt-2 md:mt-0 text-slate-400">Developed with precision &amp; modern luxury aesthetics.</p>
+        <p class="mt-2 md:mt-0 text-zinc-400">Developed with precision &amp; modern luxury aesthetics.</p>
       </div>
     </div>
   </footer>
 
   <!-- FLOATING WHATSAPP BUTTON -->
-  <a href="https://wa.me/62895374251587?text=Halo%20CV.%20Eternal%20Core%20Project,%20saya%20tertarik%20untuk%20konsultasi%20produksi%20event." target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-40 w-14 h-14 rounded-full bg-emerald-500 text-slate-950 flex items-center justify-center shadow-2xl shadow-emerald-500/50 hover:scale-110 hover:bg-emerald-400 transition-all group" title="Chat WhatsApp Sekarang">
+  <a href="https://wa.me/62895374251587?text=Halo%20CV.%20Eternal%20Core%20Project,%20saya%20tertarik%20untuk%20konsultasi%20produksi%20event." target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 z-40 w-14 h-14 rounded-full bg-yellow-500 text-black flex items-center justify-center shadow-2xl shadow-yellow-500/40 hover:scale-110 hover:bg-yellow-400 transition-all group" title="Chat WhatsApp Sekarang">
     <i data-lucide="message-circle" class="w-7 h-7 fill-current"></i>
-    <span class="absolute right-16 top-2 px-3 py-1.5 rounded-lg bg-slate-900 text-white text-xs font-semibold whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity border border-slate-700 pointer-events-none shadow-xl">
+    <span class="absolute right-16 top-2 px-3 py-1.5 rounded-lg bg-neutral-900 text-white text-xs font-semibold whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity border border-neutral-800 pointer-events-none shadow-xl">
       Chat WhatsApp (Agung Gumelar)
     </span>
   </a>
 
   <!-- LIGHTBOX / MODAL -->
   <div id="image-modal" class="fixed inset-0 z-50 hidden bg-black/90 backdrop-blur-md flex items-center justify-center p-4" onclick="closeModal(event)" role="dialog" aria-modal="true" aria-labelledby="modal-title">
-    <div class="relative max-w-4xl w-full bg-slate-900 border border-slate-800 rounded-3xl overflow-hidden shadow-2xl" onclick="event.stopPropagation()">
-      <button type="button" aria-label="Tutup modal" class="absolute top-4 right-4 z-20 p-2.5 rounded-full bg-black/60 text-white hover:bg-red-500 hover:text-white transition-colors" onclick="closeModalDirect()">
+    <div class="relative max-w-4xl w-full bg-neutral-950 border border-neutral-800 rounded-3xl overflow-hidden shadow-2xl" onclick="event.stopPropagation()">
+      <button type="button" aria-label="Tutup modal" class="absolute top-4 right-4 z-20 p-2.5 rounded-full bg-black/70 text-white hover:bg-yellow-500 hover:text-black transition-colors" onclick="closeModalDirect()">
         <i data-lucide="x" class="w-5 h-5"></i>
       </button>
 
       <div class="relative h-[52vh] sm:h-[60vh] bg-black flex items-center justify-center overflow-hidden">
         <img id="modal-img" src="" alt="Event Detail" class="max-h-full max-w-full w-auto object-contain transition-opacity duration-200">
-        <span id="modal-counter" class="hidden absolute top-4 left-4 z-10 px-3 py-1 rounded-full bg-black/70 border border-white/10 text-xs font-semibold text-slate-200">1 / 2</span>
+        <span id="modal-counter" class="hidden absolute top-4 left-4 z-10 px-3 py-1 rounded-full bg-black/70 border border-white/10 text-xs font-semibold text-zinc-200">1 / 2</span>
 
-        <button type="button" id="modal-prev" aria-label="Foto sebelumnya" class="hidden absolute left-3 sm:left-4 top-1/2 -translate-y-1/2 z-10 p-2.5 rounded-full bg-black/60 hover:bg-emerald-500 text-white hover:text-slate-950 border border-white/10 transition-colors" onclick="stepModalImage(-1)">
+        <button type="button" id="modal-prev" aria-label="Foto sebelumnya" class="hidden absolute left-3 sm:left-4 top-1/2 -translate-y-1/2 z-10 p-2.5 rounded-full bg-black/60 hover:bg-yellow-500 text-white hover:text-black border border-white/10 transition-colors" onclick="stepModalImage(-1)">
           <i data-lucide="chevron-left" class="w-5 h-5"></i>
         </button>
-        <button type="button" id="modal-next" aria-label="Foto berikutnya" class="hidden absolute right-3 sm:right-4 top-1/2 -translate-y-1/2 z-10 p-2.5 rounded-full bg-black/60 hover:bg-emerald-500 text-white hover:text-slate-950 border border-white/10 transition-colors" onclick="stepModalImage(1)">
+        <button type="button" id="modal-next" aria-label="Foto berikutnya" class="hidden absolute right-3 sm:right-4 top-1/2 -translate-y-1/2 z-10 p-2.5 rounded-full bg-black/60 hover:bg-yellow-500 text-white hover:text-black border border-white/10 transition-colors" onclick="stepModalImage(1)">
           <i data-lucide="chevron-right" class="w-5 h-5"></i>
         </button>
       </div>
 
-      <div id="modal-thumbs" class="hidden px-6 py-3 bg-slate-900/95 border-t border-slate-800 flex items-center gap-3 overflow-x-auto no-scrollbar"></div>
+      <div id="modal-thumbs" class="hidden px-6 py-3 bg-neutral-900/95 border-t border-neutral-800 flex items-center gap-3 overflow-x-auto no-scrollbar"></div>
 
-      <div class="p-6 bg-slate-950 border-t border-slate-800">
+      <div class="p-6 bg-black border-t border-neutral-800">
         <div class="flex flex-wrap items-center gap-2 mb-2">
-          <span id="modal-badge" class="px-2.5 py-0.5 rounded-full text-[11px] font-bold uppercase tracking-wider bg-emerald-500/15 text-emerald-400 border border-emerald-500/30">Event</span>
-          <span id="modal-meta" class="text-xs text-slate-400 font-medium"></span>
+          <span id="modal-badge" class="px-2.5 py-0.5 rounded-full text-[11px] font-bold uppercase tracking-wider bg-yellow-500/15 text-yellow-400 border border-yellow-500/30">Event</span>
+          <span id="modal-meta" class="text-xs text-zinc-400 font-medium"></span>
         </div>
         <h4 id="modal-title" class="font-heading font-bold text-xl text-white">Event Name</h4>
-        <p id="modal-desc" class="text-sm text-slate-400 mt-2 leading-relaxed">Event Description</p>
+        <p id="modal-desc" class="text-sm text-zinc-400 mt-2 leading-relaxed">Event Description</p>
       </div>
     </div>
   </div>
@@ -741,21 +738,27 @@
 
     // Portfolio Events Data (14 Events x 2 Photos = 28 Assets)
     const ACCENT_STYLES = {
-      emerald: {
-        border: 'hover:border-emerald-500/50',
-        badge: 'bg-emerald-500/90',
-        title: 'group-hover:text-emerald-400',
-        cta: 'text-emerald-400'
+      music: {
+        border: 'hover:border-yellow-500/50',
+        badge: 'bg-yellow-400/95 text-black',
+        title: 'group-hover:text-yellow-400',
+        cta: 'text-yellow-400'
       },
-      cyan: {
-        border: 'hover:border-cyan-500/50',
-        badge: 'bg-cyan-500/90',
-        title: 'group-hover:text-cyan-400',
-        cta: 'text-cyan-400'
+      esports: {
+        border: 'hover:border-amber-400/50',
+        badge: 'bg-amber-400/95 text-black',
+        title: 'group-hover:text-amber-300',
+        cta: 'text-amber-400'
       },
-      amber: {
+      community: {
+        border: 'hover:border-yellow-600/50',
+        badge: 'bg-yellow-500/90 text-black',
+        title: 'group-hover:text-yellow-300',
+        cta: 'text-yellow-500'
+      },
+      brand: {
         border: 'hover:border-amber-500/50',
-        badge: 'bg-amber-500/90',
+        badge: 'bg-neutral-900/90 text-yellow-400 border border-yellow-500/40',
         title: 'group-hover:text-amber-400',
         cta: 'text-amber-400'
       }
@@ -768,7 +771,7 @@
         modalTitle: 'Break Out Day 2024',
         category: 'music',
         badge: 'Music Festival',
-        accent: 'emerald',
+        accent: 'yellow',
         images: ['assets/events/breakout-day-1.jpg', 'assets/events/breakout-day-2.jpg'],
         shortDesc: 'Pentas panggung konser musik akbar outdoor dengan audio visual impresif dan lighting dinamis.',
         fullDesc: 'Festival musik spektakuler outdoor dengan tata panggung megah, ribuan audiens, dan line-up musisi ternama.',
@@ -780,7 +783,7 @@
         modalTitle: 'Super MLBB Competition 2026',
         category: 'esports',
         badge: 'Esports Arena',
-        accent: 'cyan',
+        accent: 'gold',
         images: ['assets/events/super-mlbb-1.jpg', 'assets/events/super-mlbb-2.jpg'],
         shortDesc: 'Turnamen Mobile Legends tingkat regional, penyediaan battle arena, LED display real-time match, dan live match stream.',
         fullDesc: 'Turnamen Esports Mobile Legends bergengsi dengan ratusan tim peserta, caster profesional, dan antusiasme gaming komunitas yang masif.',
@@ -804,7 +807,7 @@
         modalTitle: '76 Happy Skate Day Cirebon 2024',
         category: 'community',
         badge: 'Action Sports',
-        accent: 'emerald',
+        accent: 'yellow',
         images: ['assets/events/skate-day-1.jpg', 'assets/events/skate-day-2.jpg'],
         shortDesc: 'Parade street skate dan kompetisi trik di ruang publik Cirebon bekerja sama dengan brand Djarum 76.',
         fullDesc: 'Perayaan Hari Skateboard sedunia bersama Djarum 76, melibatkan ratusan skateboarder, street parade, dan best trick competition.',
@@ -828,7 +831,7 @@
         modalTitle: 'Shout Of Sound 2026',
         category: 'music',
         badge: 'Indie Rock Show',
-        accent: 'emerald',
+        accent: 'yellow',
         images: ['assets/events/shout-of-sound-1.jpg', 'assets/events/shout-of-sound-2.jpg'],
         shortDesc: 'Ledakan energi panggung musik anak muda, menghidupkan ekosistem musisi lokal berdaya saing nasional.',
         fullDesc: 'Pentas musik underground dan indie rock penuh energi, dengan tata suara FOH berkekuatan tinggi serta lighting cadas.',
@@ -840,7 +843,7 @@
         modalTitle: 'Weekend Vibes 2025',
         category: 'music',
         badge: 'Lifestyle Fest',
-        accent: 'cyan',
+        accent: 'gold',
         images: ['assets/events/weekend-vibes-1.jpg', 'assets/events/weekend-vibes-2.jpg'],
         shortDesc: 'Perpaduan live performance dan bazaar kuliner kreatif dengan tata panggung intimate kekinian.',
         fullDesc: 'Pesta akhir pekan santai dan estetik, menghadirkan live acoustic, culinary pop-up market, serta ruang temu komunitas kreatif.',
@@ -864,7 +867,7 @@
         modalTitle: 'Super Moment Citizen Across Kuningan',
         category: 'brand',
         badge: 'Sport Activation',
-        accent: 'emerald',
+        accent: 'yellow',
         images: ['assets/events/citizen-across-1.jpg', 'assets/events/citizen-across-2.jpg'],
         shortDesc: 'Pesta komunitas pecinta sepak bola dengan layar tancap LED raksasa, fun games, dan awarding supporter.',
         fullDesc: 'Aktivasi brand Super Soccer bersama komunitas sepak bola dan suporter di Kuningan, menampilkan layar nobar megah dan games interaktif.',
@@ -888,7 +891,7 @@
         modalTitle: 'Super League Euro Futsal 2024',
         category: 'community',
         badge: 'Sport Tournament',
-        accent: 'cyan',
+        accent: 'gold',
         images: ['assets/events/euro-futsal-1.jpg', 'assets/events/euro-futsal-2.jpg'],
         shortDesc: 'Kompetisi futsal komunitas & suporter bola regional bersama Super Soccer dengan manajemen turnamen terstruktur.',
         fullDesc: 'Turnamen Super League Euro Futsal bersama Super Soccer (#IniRasanyaSuper), menghadirkan pertandingan kompetitif antar tim komunitas, tata venue indoor, dan aktivasi audiens.',
@@ -900,7 +903,7 @@
         modalTitle: 'Supermusic Intimate Show',
         category: 'music',
         badge: 'Intimate Music',
-        accent: 'emerald',
+        accent: 'yellow',
         images: ['assets/events/intimate-show-1.jpg', 'assets/events/intimate-show-2.jpg'],
         shortDesc: 'Pertunjukan musik intim bersama Supermusic dengan tata panggung estetik, pencahayaan hangat, dan kedekatan audiens.',
         fullDesc: 'Konsep gigs eksklusif Supermusic Intimate Show yang memadukan produksi audio-lighting presisi, stage flow rapi, dan atmosfer akrab antara musisi, kru, dan penonton.',
@@ -924,7 +927,7 @@
         modalTitle: 'Scorpion Spirit Showcase',
         category: 'brand',
         badge: 'Night Activation',
-        accent: 'cyan',
+        accent: 'gold',
         images: ['assets/events/scorpion-spirit-1.jpg', 'assets/events/scorpion-spirit-2.jpg'],
         shortDesc: 'Aktivasi panggung komunitas malam hari dengan tata lampu tematik, branding visual tegas, dan keterlibatan audiens muda.',
         fullDesc: 'Produksi panggung malam Scorpion Spirit lengkap dengan rigging lighting merah dramatis, branding backdrop presisi, serta koordinasi crew dan komunitas pengisi acara.',
@@ -936,22 +939,22 @@
 
     function renderGallery() {
       galleryGrid.innerHTML = EVENTS_DATA.map((ev, index) => {
-        const s = ACCENT_STYLES[ev.accent] || ACCENT_STYLES.emerald;
+        const s = ACCENT_STYLES[ev.category] || ACCENT_STYLES.music;
         const photoCountBadge = ev.images.length > 1
-          ? `<span class="absolute top-4 right-4 px-2.5 py-1 rounded-full text-[11px] font-semibold bg-slate-950/80 text-slate-200 border border-white/10 backdrop-blur-sm flex items-center gap-1"><i data-lucide="images" class="w-3 h-3"></i> ${ev.images.length} Foto</span>`
+          ? `<span class="absolute top-4 right-4 px-2.5 py-1 rounded-full text-[11px] font-semibold bg-black/80 text-zinc-200 border border-white/10 backdrop-blur-sm flex items-center gap-1"><i data-lucide="images" class="w-3 h-3 text-yellow-400"></i> ${ev.images.length} Foto</span>`
           : '';
         return `
-          <div class="gallery-item group relative rounded-3xl overflow-hidden glass-card cursor-pointer border border-slate-800 ${s.border} transition-all" data-category="${ev.category}" onclick="openEventModal(${index})">
+          <div class="gallery-item group relative rounded-3xl overflow-hidden glass-card cursor-pointer border border-neutral-800 ${s.border} transition-all" data-category="${ev.category}" onclick="openEventModal(${index})">
             <div class="relative h-64 overflow-hidden">
               <img src="./${ev.images[0]}" alt="${ev.title}" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700">
-              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
-              <span class="absolute top-4 left-4 px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider ${s.badge} text-slate-950">${ev.badge}</span>
+              <div class="absolute inset-0 bg-gradient-to-t from-black via-black/25 to-transparent"></div>
+              <span class="absolute top-4 left-4 px-3 py-1 rounded-full text-[11px] font-bold uppercase tracking-wider ${s.badge}">${ev.badge}</span>
               ${photoCountBadge}
             </div>
             <div class="p-6">
               <h3 class="font-heading font-bold text-lg text-white ${s.title} transition-colors">${ev.title}</h3>
-              <p class="text-xs text-slate-400 mt-2 line-clamp-2">${ev.shortDesc}</p>
-              <div class="mt-4 flex items-center justify-between text-xs text-slate-500 pt-3 border-t border-slate-800/80">
+              <p class="text-xs text-zinc-400 mt-2 line-clamp-2">${ev.shortDesc}</p>
+              <div class="mt-4 flex items-center justify-between text-xs text-zinc-500 pt-3 border-t border-neutral-800/80">
                 <span>${ev.meta}</span>
                 <span class="${s.cta} flex items-center gap-1 font-semibold">Lihat Galeri <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i></span>
               </div>
@@ -970,11 +973,11 @@
     filterBtns.forEach(btn => {
       btn.addEventListener('click', () => {
         filterBtns.forEach(b => {
-          b.classList.remove('bg-emerald-500', 'text-black', 'active');
-          b.classList.add('bg-slate-900', 'text-slate-300', 'border-slate-800');
+          b.classList.remove('bg-yellow-500', 'text-black', 'active');
+          b.classList.add('bg-neutral-900', 'text-zinc-300', 'border-neutral-800');
         });
-        btn.classList.add('bg-emerald-500', 'text-black', 'active');
-        btn.classList.remove('bg-slate-900', 'text-slate-300', 'border-slate-800');
+        btn.classList.add('bg-yellow-500', 'text-black', 'active');
+        btn.classList.remove('bg-neutral-900', 'text-zinc-300', 'border-neutral-800');
 
         const filter = btn.getAttribute('data-filter');
         document.querySelectorAll('.gallery-item').forEach(item => {
@@ -1018,8 +1021,8 @@
         modalThumbs.innerHTML = activeModalImages.map((src, idx) => {
           const isActive = idx === activeImageIndex;
           const borderClass = isActive
-            ? 'border-emerald-400 ring-2 ring-emerald-400/40 opacity-100'
-            : 'border-slate-700 opacity-60 hover:opacity-100';
+            ? 'border-yellow-400 ring-2 ring-yellow-400/40 opacity-100'
+            : 'border-neutral-700 opacity-60 hover:opacity-100';
           return `
             <button type="button" onclick="selectModalImage(${idx})" class="relative shrink-0 w-24 h-14 rounded-xl overflow-hidden border-2 ${borderClass} transition-all focus:outline-none">
               <img src="./${src}" alt="${activeEventTitle} thumbnail ${idx + 1}" class="w-full h-full object-cover">
