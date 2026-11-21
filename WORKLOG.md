@@ -49,11 +49,13 @@ Membangun website portofolio resmi untuk **CV. Eternal Core Project** (Event Org
 
 ## 🌐 Status Deployment Vercel (Angelica)
 - **Live Production URL**: [https://eternal-core-project.vercel.app](https://eternal-core-project.vercel.app)
-- **Inspect URL**: [https://vercel.com/agung-gumelar/eternal-core-project/AuqEhjXa7EKsv6EVnpZA5YDioA5b](https://vercel.com/agung-gumelar/eternal-core-project/AuqEhjXa7EKsv6EVnpZA5YDioA5b)
-- **Deployment ID**: `dpl_AuqEhjXa7EKsv6EVnpZA5YDioA5b`
+- **Latest Deployment ID**: `dpl_DjFXhsH8Vs8sfR85NoPV7i7mKnh6`
+- **Inspect URL**: [https://vercel.com/agung-gumelar/eternal-core-project/DjFXhsH8Vs8sfR85NoPV7i7mKnh6](https://vercel.com/agung-gumelar/eternal-core-project/DjFXhsH8Vs8sfR85NoPV7i7mKnh6)
 - **Target**: Production
 - **Ready State**: `READY`
+- **Latest Commit**: `55b9a47` ("feat: sync official IG bio tagline and 5 service pillars")
 - **Mechanical Proof (Exit Code 0)**:
   - HTTP Status: `200 OK`
-  - Response Body Length: `64,567 bytes` (Payload Landing Page Utuh)
-  - Git Repo: Inisialisasi commit `master (root-commit) b4530a6`
+  - Tagline verification: `Integrity from the Inside Out` (Verified present in live HTML)
+  - 5 Service Pillars: Verified (Music Concert & Festival, Brand Activation & Corporate, Esports Tournament Organizer, Wedding & Formal Protocol, Creative Production & Multimedia Equipment)
+
